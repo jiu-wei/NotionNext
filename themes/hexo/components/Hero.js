@@ -90,7 +90,8 @@ const Hero = props => {
       <LazyImage
         id='header-cover'
         alt={siteInfo?.title}
-        src={siteInfo?.pageCover}
+        //src={siteInfo?.pageCover}
+        src="https://pub-9842a5a5a34349798e687d461db7a8f0.r2.dev/2025/12/8552c1a29c683f903b424687c8445c8f.png"//替换首页大图
         className={`header-cover w-full h-screen object-cover object-center ${siteConfig('HEXO_HOME_NAV_BACKGROUND_IMG_FIXED', null, CONFIG) ? 'fixed' : ''}`}
       />
     </header>
